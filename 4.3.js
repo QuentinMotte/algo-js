@@ -13,7 +13,7 @@ function multiRand(n) {
     n = question;
     for (let i = 0; i < n; i++) {
         array.push(rand10(1, 11));
-        console.log(array);
     }
+    console.log(array);
 }
 multiRand();
