@@ -31,10 +31,9 @@ function multiRand(n) {
     for (let i = 0; i < n; i++) {
         array.push(rand10(1, 11));
     }
-    console.log(array);
-    console.log(average(array));
-    console.log(min(array));
-    console.log(max(array));
 }
-
 multiRand();
+console.log(array);
+console.log(average(array));
+console.log(min(array));
+console.log(max(array));
