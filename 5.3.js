@@ -12,12 +12,7 @@ function nestedArrayAndObject() {
             ],
         },
     };
-    // const {} = info // <-- replace the next few `const` lines with this
-    // const title = info.title
-    // const protagonistName = info.protagonist.name
-    // const enemy = info.protagonist.enemies[3]
-    // const enemyTitle = enemy.title
-    // const enemyName = enemy.name
+
     const {
         title,
         protagonist: { name: protagonistName },
